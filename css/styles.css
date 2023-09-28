@@ -34,6 +34,13 @@ img {
     outline: 2px solid red;
 }
 
+
+/*  header-start  */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -43,7 +50,32 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
+
+.container-header {
+    display: flex;
+    gap: 40px;
+    width: 1158px;
+    padding: 0 15px
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px
+    padding: 24px 0;
+}
+
 
 .header-logo .accent {
    color: #2E2F42;
@@ -69,6 +101,12 @@ img {
 
 .address {
     font-style: normal;
+    display: flex;
+}
+
+.header-address {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-link {
@@ -88,6 +126,11 @@ img {
     color: #404BBF;
 }
 
+/*  header-end  */
+
+
+/*  hero  */
+
 .hero-section {
     padding-bottom: 120px;
 }
@@ -99,7 +142,6 @@ img {
     padding-left: 472px;
     padding-bottom: 188px;
 }
-
 
 
 .hero-title {
@@ -133,6 +175,11 @@ img {
 .button-title:focus {
     background-color: #404BBF;
 }
+
+/*  hero-end  */
+
+
+/*  secondary-start  */
 
 .secondary-section {
     padding-bottom: 120px;
@@ -223,7 +270,6 @@ img {
 
 footer {
     background-color: #2e2f42;
-
 }
 
 .footer-container {
