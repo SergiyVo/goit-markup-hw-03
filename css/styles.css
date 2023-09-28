@@ -57,25 +57,24 @@ img {
     display: flex;
     gap: 40px;
     width: 1158px;
-    padding: 0 15px
+    padding: 0 15px;
     display: flex;
     height: 72px;
     justify-content: center;
     align-items: center;
+
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 0 15px 0 15px;
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-    margin-right: 40px;
-    padding: 24px 0;
 }
+
 
 
 .header-logo .accent {
@@ -90,6 +89,7 @@ img {
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-link:hover {
@@ -195,9 +195,9 @@ img {
     gap: 24px;
 }
 
-.secondary-list-text [
+.secondary-list-text {
     width: calc((100% - 72px) / 4);
-]
+}
 
 .advantages-title {
     font-weight: 500;
