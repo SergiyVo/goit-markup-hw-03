@@ -67,12 +67,13 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 0 15px 0 15px;
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-    margin-right: 40px
+    margin-right: 40px;
     padding: 24px 0;
 }
 
@@ -132,15 +133,12 @@ img {
 /*  hero  */
 
 .hero-section {
-    padding-bottom: 120px;
+
 }
 
 .hero-container {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-left: 472px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 
@@ -154,6 +152,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
+    max-width: 496px;
 }
 
 .button-title {
@@ -166,6 +165,11 @@ img {
     color: #FFFFFF;
     cursor: pointer;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button-title:hover {
@@ -181,9 +185,19 @@ img {
 
 /*  secondary-start  */
 
+
 .secondary-section {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
+
+.secondary-list {
+    display: flex;
+    gap: 24px;
+}
+
+.secondary-list-text [
+    width: calc((100% - 72px) / 4);
+]
 
 .advantages-title {
     font-weight: 500;
@@ -198,6 +212,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/*  secondary-end */
+
+
+/*  third-end */
+
 
 .third-section {
     background-color: #F4F4FD;
@@ -218,7 +238,7 @@ img {
     padding-bottom: 120px;
 }
 
-.third-list {
+.third-list-text {
     background-color: #FFFFFF;
     margin-bottom: 32px;
 }
