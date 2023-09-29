@@ -29,7 +29,9 @@ img {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     outline: 3px solid red;
 }
@@ -55,14 +57,7 @@ img {
 
 .container-header {
     display: flex;
-    gap: 40px;
-    width: 1158px;
-    padding: 0 15px;
-    display: flex;
-    height: 72px;
-    justify-content: center;
     align-items: center;
-
 }
 
 .header-nav {
@@ -89,6 +84,7 @@ img {
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;
+    display: block;
     padding: 24px 0;
 }
 
@@ -103,6 +99,7 @@ img {
 .address {
     font-style: normal;
     display: flex;
+    margin-left: auto;
 }
 
 .header-address {
@@ -146,8 +143,10 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-title {
@@ -165,6 +164,8 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-title:hover {
@@ -350,6 +351,6 @@ footer {
     color:  #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 17.5px;
+    max-width: 264px;
 }
 /*  footer-end  */
