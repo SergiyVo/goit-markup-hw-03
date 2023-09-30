@@ -275,7 +275,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
     text-align: center;
 }
 
@@ -321,16 +320,17 @@ img {
     letter-spacing: 0.02em;
 }
 
-footer {
-    background-color: #2e2f42;
-    padding: 100px 0;
 
-}
 /*  fourth-end */
 
 
 /*  footer-start  */
 
+footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+
+}
 .footer-logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
